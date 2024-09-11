@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jam Sholat</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>APLIKASI JADWAL SHOLAT</h1>
+        <h3 id="lokasi" style="font-size: 14px !important;">Kabupaten Bogor, Indonesia</h3>
+    </header>
+
+    <section class="content" id="contentsholat">
+        <button class="tanggal" id="tanggal">
+            <h1 id="tanggalSholat">{tanggal}</h1>
+        </button>
+
+        <div class="prayer-times">
+            <button class="waktu" id="subuh">Subuh: {subuh}</button>
+            <button class="waktu" id="dzuhur">Dzuhur: {dzuhur}</button>
+            <button class="waktu" id="ashar">Ashar: {ashar}</button>
+            <button class="waktu" id="maghrib">Maghrib: {maghrib}</button>
+            <button class="waktu" id="isya">Isya: {isya}</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
